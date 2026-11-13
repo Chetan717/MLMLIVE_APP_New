@@ -1,0 +1,37 @@
+{
+  "release": "2026-11-13",
+  "revision": "no-captcha",
+  "baseline": "MLMLIVE_APP_RAZORPAY_SECURE_13Nov2026.zip",
+  "description": "Removed frontend App Check initialization and callable attestation requirements; Firebase authentication, authorization and all server-side payment checks retained.",
+  "files": [
+    {
+      "path": "PAYMENT_SETUP.md",
+      "status": "modified",
+      "previousSha256": "f3d252236f954260e4824c826ea39ae4bea7a710fb131ea4e92365c245f4d4ea",
+      "sha256": "ff4ed6d84e8139ea18563101c50bddbc8e21f9e14244ecc9c0dd18e46c30a621"
+    },
+    {
+      "path": "START_HERE_PAYMENT.md",
+      "status": "modified",
+      "previousSha256": "51479c492b2d40197ecd2a7b2421646f19d4ff665ff24e1eede505d7aafc85d9",
+      "sha256": "ec94541a3ffddea401a2476841659e5bca88af479f7b086ed0ca94d2f96e9c2d"
+    },
+    {
+      "path": "src/Firebase.js",
+      "status": "modified",
+      "previousSha256": "02448bc29a21da7bc4222ffcf545959d7359eb90f66df0f1dd70b3544fbb13ff",
+      "sha256": "77dd8e8dde7a4ba2fcb86206e7ac07eff256b21ed23c183c007f251c6eb27b8f"
+    },
+    {
+      "path": "src/services/paymentAppCheck.js",
+      "status": "deleted",
+      "previousSha256": "e24129ff705872bf8494588643c6eaae0647746ed767ef3c5ee5bc9008cecba9"
+    },
+    {
+      "path": "src/services/paymentService.js",
+      "status": "modified",
+      "previousSha256": "912df0a16ec15782036b8da8a660d7aec12c353180eff3245db8ceb3a9a22e1c",
+      "sha256": "82058d7183d1826c22f728bb036608d0763696ab93157fa74889a289733c04d4"
+    }
+  ]
+}
